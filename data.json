@@ -1,0 +1,95 @@
+{"projects":[
+    {
+        "id": 0,
+        "project_name": "quoteGenerator",
+        "description": "Description of Project 1",
+        "technologies": ["javaScript", "CSS", "HTML"],
+        "live_link": "",
+        "github_link": "https://github.com/Ccyr01/QuoteGenerator.git",
+        "image_urls": ["/images/quoteGeneratorBobMarley.png","/images/quoteGeneratorEddiePinero.jpg","/images/quoteGeneratorMartinLutherKng.jpg"]
+    },
+    {
+        "id": 1,
+        "project_name": "dataPagination",
+        "description": "Description of Project 2",
+        "technologies": ["javaScript", "CSS", "HTML"],
+        "live_link": "",
+        "github_link": "https://github.com/Ccyr01/DataPaginationJS.git",
+        "image_urls": ["/images/project2img2.jpg","/images/project2img3.jpg","/images/project2img4.jpg","/images/project2img5.jpg"]
+    },
+    {
+        "id": 2,
+        "project_name": "interactiveForm",
+        "description": "Description of Project 3",
+        "technologies": ["javaScript", "CSS", "HTML"],
+        "live_link": "",
+        "github_link": "https://github.com/Ccyr01/InteractiveForm.git",
+        "image_urls": ["/images/project3img1.jpg","/images/project3img2.jpg","/images/project3img3.jpg","/images/project3img4.jpg"]
+    },
+    {
+        "id": 3,
+        "project_name": "apiRequests",
+        "description": "Description of Project 4",
+        "technologies": ["javaScript", "CSS", "HTML"],
+        "live_link": "",
+        "github_link": "https://github.com/Ccyr01/apiRequestsProject.git",
+        "image_urls": ["/images/project4img1.jpg","/images/project4img2.jpg"]
+    },
+    {
+        "id": 4,
+        "project_name": "phraseHunters",
+        "description": "Description of Project 5",
+        "technologies": ["javaScript", "CSS", "HTML"],
+        "live_link": "",
+        "github_link": "https://github.com/Ccyr01/PhraseHunters.git",
+        "image_urls": ["/images/project5img1.jpg","/images/project5img2.jpg","/images/project5img3.jpg"]
+    },
+    {
+        "id": 5,
+        "project_name": "mobileFirstWebsite",
+        "description": "Description of Project 5",
+        "technologies": ["CSS", "HTML"],
+        "live_link": "",
+        "github_link": "https://github.com/Ccyr01/Tech-Degree-Project2.git",
+        "image_urls": ["/images/webproj2img1.jpg","/images/webproj2img2.jpg","/images/webproj2img3.jpg","/images/webproj2img4.jpg"]
+    },
+    {
+        "id": 6,
+        "project_name": "connect4",
+        "description": "school profolio and connect four game",
+        "technologies": ["CSS", "HTML"],
+        "live_link": "web.nmsu.edu/~ccyr01",
+        "github_link": "https://github.com/Ccyr01/website.git",
+        "image_urls": ["/images/webproj2img1.jpg","/images/webproj2img2.jpg","/images/webproj2img3.jpg","/images/webproj2img4.jpg"]
+    },
+    {
+        "id": 7,
+        "project_name": "basketBallStatsTool",
+        "description": "school profolio and connect four game",
+        "technologies": ["Python"],
+        "live_link": "",
+        "github_link": "https://github.com/Ccyr01/BasketballStatsTool.git",
+        "image_urls": ["/images/webproj2img1.jpg","/images/webproj2img2.jpg","/images/webproj2img3.jpg","/images/webproj2img4.jpg"]
+    },
+    {
+        "id": 8,
+        "project_name": "employeeManagement",
+        "description": "employee management system",
+        "technologies": ["Java"],
+        "live_link": "",
+        "github_link": "https://github.com/Ccyr01/EmployeeManagement.git",
+        "image_urls": ["/images/javaEmployeeApp1.jpg","/images/javaEmployeeApp2.jpg","/images/javaEmployeeApp3.jpg","/images/javaEmployeeApp4.jpg"]
+    },
+    {
+        "id": 9,
+        "project_name": "compiler",
+        "description": "compiler made in school with c",
+        "technologies": ["c","yacc","assembly","lex"],
+        "live_link": "",
+        "github_link": "https://github.com/Ccyr01/projectCompiler.git",
+        "image_urls": ["/images/compiler.jpg","/images/compiler2.jpg","/images/compiler4.jpg","/images/compiler5.jpg"]
+    }
+   
+    
+    
+]}
