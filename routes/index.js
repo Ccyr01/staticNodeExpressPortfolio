@@ -15,7 +15,7 @@ router.get('/about', (req, res) => {
 router.get('/projects/:id', function(req, res, next) {
     const projectId = req.params.id;
     const project = data.projects.find( ({ id }) => id === +projectId );
-    
+    console.log("project id" + projectId);
     if (project) {
       res.render('project', { project });
     } else {
