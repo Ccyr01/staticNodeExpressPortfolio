@@ -19,5 +19,23 @@ app.listen(port, () => {
     console.log(`listening on port ${port}`);
 });
 
+app.use((req, res, next) => {
+    const error = new Error('404 Not Found');
+    error.status = 404;
+    console.error(`${error.message} (${error.status})`);
+    res.render('page-not-found');
+    next(error);
+
+});
+
+app.use((err, req, res, next) => {
+    if(!err.status){
+        err.status = 500;
+        err.message = 'Something went wrong with server';
+        res.status(err.status).send(`${err.status} ${err.message}`);
+        res.render('error');
+    }
+});
+
 module.exports = app;
 

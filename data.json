@@ -2,8 +2,8 @@
     {
         "id": 0,
         "project_name": "Quote Generator",
-        "description": "Description of Project 1",
-        "technologies": ["javaScript", "CSS", "HTML"],
+        "description": "Generate some random quotes to get you in a better mood with a click of a button, and get a new background color",
+        "technologies": ["JavaScript", "CSS", "HTML"],
         "live_link": "https://ccyr01.github.io/QuoteGenerator/",
         "github_link": "https://github.com/Ccyr01/QuoteGenerator.git",
         "image_urls": ["/images/quoteGeneratorBobMarley.png","/images/quoteGeneratorEddiePinero.png","/images/quoteGeneratorMartinLutherKng.png"]
@@ -11,8 +11,8 @@
     {
         "id": 1,
         "project_name": "Data Pagination",
-        "description": "Description of Project 2",
-        "technologies": ["javaScript", "CSS", "HTML"],
+        "description": "Students are organized evenly on the amount of pages needed. Search bar helps narrow down results, and buttons at the bottom display the students on that page number",
+        "technologies": ["JavaScript", "CSS", "HTML"],
         "live_link": "https://ccyr01.github.io/DataPaginationJS/",
         "github_link": "https://github.com/Ccyr01/DataPaginationJS.git",
         "image_urls": ["/images/project2img2.png","/images/project2img3.png","/images/project2img4.png","/images/project2img5.png"]
@@ -20,8 +20,8 @@
     {
         "id": 2,
         "project_name": "Interactive Form",
-        "description": "Description of Project 3",
-        "technologies": ["javaScript", "CSS", "HTML"],
+        "description": "Form that checks for user input and validates it if it's filled out correctly, or else it displays a warning on what is missing.",
+        "technologies": ["JavaScript", "CSS", "HTML"],
         "live_link": "https://ccyr01.github.io/InteractiveForm/",
         "github_link": "https://github.com/Ccyr01/InteractiveForm.git",
         "image_urls": ["/images/project3img1.png","/images/project3img2.png","/images/project3img3.png","/images/project3img4.png"]
@@ -29,8 +29,8 @@
     {
         "id": 3,
         "project_name": "API Requests",
-        "description": "Description of Project 4",
-        "technologies": ["javaScript", "CSS", "HTML"],
+        "description": "Use API Requests to generate new random users",
+        "technologies": ["JavaScript", "CSS", "HTML"],
         "live_link": "https://ccyr01.github.io/apiRequestsProject/",
         "github_link": "https://github.com/Ccyr01/apiRequestsProject.git",
         "image_urls": ["/images/project4img1.png","/images/project4img2.png"]
@@ -38,8 +38,8 @@
     {
         "id": 4,
         "project_name": "Phrase Hunters",
-        "description": "Description of Project 5",
-        "technologies": ["javaScript", "CSS", "HTML"],
+        "description": "Play a game of phrase hunters and try to guess the phrase with the amount of lives given.",
+        "technologies": ["JavaScript", "CSS", "HTML"],
         "live_link": "https://ccyr01.github.io/PhraseHunters/",
         "github_link": "https://github.com/Ccyr01/PhraseHunters.git",
         "image_urls": ["/images/project5img1.png","/images/project5img2.png","/images/project5img3.png"]
@@ -47,7 +47,7 @@
     {
         "id": 5,
         "project_name": "Mobile-First-Website",
-        "description": "Description of Project 5",
+        "description": "Website made for mobile screens, so play with the size of the browser and watch the layout change accordingly.",
         "technologies": ["CSS", "HTML"],
         "live_link": "https://ccyr01.github.io/Tech-Degree-Project2/",
         "github_link": "https://github.com/Ccyr01/Tech-Degree-Project2.git",
@@ -65,7 +65,7 @@
     {
         "id": 7,
         "project_name": "BasketBall Stats Tool",
-        "description": "school profolio and connect four game",
+        "description": "Organize the people into basketball teams, and display the stats.",
         "technologies": ["Python"],
         "live_link": "",
         "github_link": "https://github.com/Ccyr01/BasketballStatsTool.git",
@@ -74,7 +74,7 @@
     {
         "id": 8,
         "project_name": "Employee Management",
-        "description": "employee management system",
+        "description": "Employee management system written in java. Features include separating employee screens from manager screens based off of login credintial. Edit/View schedules. Clock in/out. View your hours worked. Requests time off. etc..",
         "technologies": ["Java"],
         "live_link": "",
         "github_link": "https://github.com/Ccyr01/EmployeeManagement.git",
@@ -83,7 +83,7 @@
     {
         "id": 9,
         "project_name": "Compiler",
-        "description": "compiler made in school with c",
+        "description": "Compiler made in school with c. Generate low level assembly code based off of the higher-level code entered. The compiler recognizes scopes, if statements, for loops, type checking, and other basic syntax.",
         "technologies": ["c","yacc","assembly","lex"],
         "live_link": "",
         "github_link": "https://github.com/Ccyr01/projectCompiler.git",

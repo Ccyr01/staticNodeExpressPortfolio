@@ -14,7 +14,6 @@ block content
 
         h1= project.project_name
 
-        //- Use interpolation to dynamically add the project description
         p= project.description
 
       .project-tech-links-box.box
@@ -23,7 +22,6 @@ block content
         each technology in project.technologies
           li= technology
 
-        //- Add the href values to the links below
         a.btn-link(href= project.live_link) Live Demo
         a.btn-link(href= project.github_link) GitHub Repo
 

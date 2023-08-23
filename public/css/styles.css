@@ -28,7 +28,7 @@ body {
 }
 
 article {
-  background: #fefefe;
+  background: #36454F;
 }
 
 h1,h2,h3,h4,h5,p{
@@ -51,7 +51,7 @@ h6{
 
 p{
   font-size: 15px;
-  color: #666;
+  color: #4169E1;
 }
 
 a {
@@ -82,7 +82,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
+  background: beige;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -143,7 +143,19 @@ nav a span {
 .sidebar-info-box {
   margin: auto;
 }
+.thumbnail{
+  transition: transform 0.3s ease;
+  transition: border-color .5s ease;
+  border: 3px solid transparent;
 
+}
+.thumbnail:hover{
+  transform: scale(1.05);
+  border-color: #3447db;
+  border-width: 2px;
+  cursor: pointer;
+
+}
 .thumbnail-box {
   padding: 0 10px;
 }
