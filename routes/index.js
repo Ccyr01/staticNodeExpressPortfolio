@@ -4,9 +4,14 @@ const data = require('../data.json');
 
 console.log(data);
 
-router.get('/', function(req, res, next) {
-    res.render('index', { projects: data.projects  });
+// router.get('/', function(req, res, next) {
+//     res.render('index', { projects: data.projects  });
+// });
+router.get('/', (req, res) => {
+  console.log('Root route hit!');
+  res.send('Hello from root!');
 });
+
 
 router.get('/about', (req, res) => {
     res.render('about');
