@@ -65,7 +65,7 @@
     {
         "id": 7,
         "project_name": "BasketBall Stats Tool",
-        "description": "Organize the people into basketball teams, and display the stats.",
+        "description": "Organize the people into basketball teams by cleaning the data, then splitting the data",
         "technologies": ["Python"],
         "live_link": "",
         "github_link": "https://github.com/Ccyr01/BasketballStatsTool.git",
