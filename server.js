@@ -19,8 +19,16 @@ app.listen(port, () => {
   console.log(`listening on port ${port}`);
 });
 
-app.use((req, res) => {
-  console.error("404 Not Found");
+// 404 middleware
+app.use((req, res, next) => {
+  // Regex to detect requests for static assets
+  const staticFilePattern =
+    /\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|map)$/i;
+
+  if (!staticFilePattern.test(req.path)) {
+    console.error(`404 Not Found: ${req.method} ${req.path}`);
+  }
+
   res.status(404).render("page-not-found");
 });
 
