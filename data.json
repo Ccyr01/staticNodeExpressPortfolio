@@ -16,6 +16,47 @@
     },
     {
       "id": 1,
+      "project_name": "Alzheimer's Disease Machine Learning Classification",
+      "description": "Team machine learning project comparing multiple classification models for Alzheimer's disease staging using clinical, cognitive, and imaging-related features.",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "pandas",
+        "NumPy",
+        "Matplotlib",
+        "Machine Learning",
+        "GridSearchCV"
+      ],
+      "live_link": "",
+      "github_link": "https://github.com/Ccyr01/ml_alz",
+      "image_urls": [
+        "/images/ml_class_distribution.png",
+        "/images/ml_correlation_matrix.png",
+        "/images/ml_model_results.png"
+      ]
+    },
+
+    {
+      "id": 2,
+      "project_name": "Alzheimer's Cognitive Decline Analysis",
+      "description": "Analyzed CDC Alzheimer's Disease and Healthy Aging data to explore cognitive decline patterns across age groups, states, and time using R, regression, and geospatial visualization.",
+      "technologies": [
+        "R",
+        "tidyverse",
+        "ggplot2",
+        "Linear Regression",
+        "Geospatial Analysis"
+      ],
+      "live_link": "",
+      "github_link": "https://github.com/Ccyr01/alzheimer_ggplot",
+      "image_urls": [
+        "/images/alz_trend_by_age.png",
+        "/images/alz_top_states.png",
+        "/images/alz_predictions_age.png"
+      ]
+    },
+    {
+      "id": 3,
       "project_name": "Data Pagination",
       "description": "Students are organized evenly on the amount of pages needed. Search bar helps narrow down results, and buttons at the bottom display the students on that page number",
       "technologies": ["JavaScript", "CSS", "HTML"],
@@ -29,26 +70,7 @@
       ]
     },
     {
-  "id": 2,
-  "project_name": "Alzheimer's Cognitive Decline Analysis",
-  "description": "Analyzed CDC Alzheimer's Disease and Healthy Aging data to explore cognitive decline patterns across age groups, states, and time using R, regression, and geospatial visualization.",
-  "technologies": [
-    "R",
-    "tidyverse",
-    "ggplot2",
-    "Linear Regression",
-    "Geospatial Analysis"
-  ],
-  "live_link": "",
-  "github_link": "https://github.com/Ccyr01/alzheimer_ggplot",
-  "image_urls": [
-    "/images/alz_trend_by_age.png",
-    "/images/alz_top_states.png",
-    "/images/alz_predictions_age.png"
-  ]
-},
-    {
-      "id": 3,
+      "id": 4,
       "project_name": "Interactive Form",
       "description": "Form that checks for user input and validates it if it's filled out correctly, or else it displays a warning on what is missing.",
       "technologies": ["JavaScript", "CSS", "HTML"],
@@ -62,7 +84,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "project_name": "Typing Test",
       "description": "Typing speed test web app that tracks words per minute and accuracy.",
       "technologies": ["JavaScript", "CSS", "HTML"],
@@ -71,7 +93,7 @@
       "image_urls": ["/images/typingTest1.png", "/images/typingTest2.png"]
     },
     {
-      "id": 5,
+      "id": 6,
       "project_name": "API Requests",
       "description": "Use API Requests to generate new random users",
       "technologies": ["JavaScript", "CSS", "HTML"],
@@ -80,7 +102,7 @@
       "image_urls": ["/images/project4img1.png", "/images/project4img2.png"]
     },
     {
-      "id": 6,
+      "id": 7,
       "project_name": "Quote Generator",
       "description": "Generate some random quotes to get you in a better mood with a click of a button, and get a new background color",
       "technologies": ["JavaScript", "CSS", "HTML"],
@@ -93,7 +115,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "project_name": "Phrase Hunters",
       "description": "Play a game of phrase hunters and try to guess the phrase with the amount of lives given.",
       "technologies": ["JavaScript", "CSS", "HTML"],
@@ -106,7 +128,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "project_name": "Mobile-First-Website",
       "description": "Website made for mobile screens, so play with the size of the browser and watch the layout change accordingly.",
       "technologies": ["CSS", "HTML"],
@@ -120,7 +142,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "project_name": "Connect 4",
       "description": "school profolio and connect four game",
       "technologies": ["CSS", "HTML"],
@@ -133,7 +155,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "project_name": "BasketBall Stats Tool",
       "description": "Organize the people into basketball teams by cleaning the data, then splitting the data",
       "technologies": ["Python"],
@@ -146,7 +168,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 12,
       "project_name": "Employee Management",
       "description": "Employee management system written in java. Features include separating employee screens from manager screens based off of login credintial. Edit/View schedules. Clock in/out. View your hours worked. Requests time off. etc..",
       "technologies": ["Java"],
@@ -160,7 +182,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 13,
       "project_name": "Compiler",
       "description": "Compiler made in school with c. Generate low level assembly code based off of the higher-level code entered. The compiler recognizes scopes, if statements, for loops, type checking, and other basic syntax.",
       "technologies": ["c", "yacc", "assembly", "lex"],
