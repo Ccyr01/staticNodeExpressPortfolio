@@ -27,7 +27,7 @@
         "Machine Learning",
         "GridSearchCV"
       ],
-      "live_link": "",
+      "live_link": "/reports/Team6_Report.pdf",
       "github_link": "https://github.com/Ccyr01/ml_alz",
       "image_urls": [
         "/images/selected_feature_correlation.png",
@@ -47,7 +47,7 @@
         "Linear Regression",
         "Geospatial Analysis"
       ],
-      "live_link": "",
+      "live_link": "/reports/visuals.pdf",
       "github_link": "https://github.com/Ccyr01/alzheimer_ggplot",
       "image_urls": [
         "/images/alz_trend_by_age.png",
