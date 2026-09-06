@@ -30,9 +30,9 @@
       "live_link": "",
       "github_link": "https://github.com/Ccyr01/ml_alz",
       "image_urls": [
-        "/images/ml_class_distribution.png",
-        "/images/ml_correlation_matrix.png",
-        "/images/ml_model_results.png"
+        "/images/DX_distribution.png",
+        "/images/MMSE_vs_DX.png",
+        "/images/elected_feature_correlation.png"
       ]
     },
 
