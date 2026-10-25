@@ -1,35 +1,46 @@
-<!DOCTYPE html>
-html(lang="en" dir="ltr")
+
+doctype html
+html(lang="en")
   head
-    meta(charset='utf-8')
-    meta(http-equiv='x-ua-compatible', content='ie=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='/css/normalize.css')
-    link(rel='stylesheet', href='/css/styles.css')
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="theme-color", content="#080f1c")
+    meta(name="description", content="Christian's software engineering portfolio featuring machine learning, web development, data analytics, and cloud projects.")
+
+    title Christian C | Software Engineering Portfolio
+
+    link(rel="preconnect", href="https://fonts.googleapis.com")
+    link(rel="preconnect", href="https://fonts.gstatic.com", crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap", rel="stylesheet")
+
+    link(rel="stylesheet", href="/css/normalize.css")
+    link(rel="stylesheet", href="/css/styles.css")
 
   body
-    #my-info.sidebar
-      .sidebar-info-box
-        br
-        .thumbnail-box
-          img.thumbnail(src='/images/IMG_1945.jpg', alt='')
-        .dev-intro-box
+    header.site-header
+      .nav-container
+        a.site-brand(href="/", aria-label="Christian C home")
+          span.brand-name
+            | CHRISTIAN 
+            span.brand-accent C
+          span.brand-subtitle SOFTWARE ENGINEERING PORTFOLIO
 
-          h5 Christian C
+        nav.site-nav(aria-label="Main navigation")
+          a(href="/") Home
+          a(href="/#featured-work") Projects
+          a(href="/about") About
 
-          p I Enjoy finding patterns in data and using my skills in analytics, programming, and machine learning to solve real-world problems.
+        .nav-actions
+          a.nav-github(
+            href="https://github.com/Ccyr01"
+            target="_blank"
+            rel="noopener noreferrer"
+          ) GitHub ↗
 
-          a(href='/about') Learn More &rarr;
-
-    .wrapper
-      .header
-        .header-info-box
-          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
-
-          span Christian C
-
+    main.site-main
       block content
 
-  script(src='/js/script.js')
+    footer.site-footer
+      .footer-inner
+        span Christian C / Engineering Portfolio
+        span Built with Node.js, Express & Pug

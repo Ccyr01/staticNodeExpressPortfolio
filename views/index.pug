@@ -1,22 +1,107 @@
+
 extends layout.pug
 
 block content
 
-  article.portfolio-intro
+  
+  //- HERO SECTION
+  section.command-hero
+    .hero-layout
 
-    h1 Christian's Portfolio 
+      .hero-photo
+        img(
+          src="/images/me.png"
+          alt="Portrait of Christian"
+        )
 
-    p Portfolio to show some of my projects that I have been working on in the last year 
+      .hero-copy
+        .hero-eyebrow
+          span.status-dot
+          span SOFTWARE ENGINEERING / MACHINE LEARNING / CLOUD
+
+        h1.hero-title
+          | Building intelligent software.
+          br
+          span.hero-accent Solving real-world problems.
+
+        p.hero-description
+          | I'm Christian, a developer focused on software engineering,
+          | machine learning, data analytics, and cloud technologies.
+          | I build applications that turn complex ideas into practical solutions.
+
+        .hero-actions
+          a.hero-btn.hero-btn-primary(href="#featured-work") Explore My Work
+          a.hero-btn.hero-btn-secondary(href="/about") About Me
 
 
-  article.portfolio-project-thumbs
+
+  //- FEATURED PROJECT SECTION
+  section.featured-work#featured-work
+    .section-heading
+      div
+        p.section-eyebrow 01 / FEATURED PROJECT
+        h2 Featured Engineering Work
+
+    article.featured-project
+      .featured-project-content
+        p.featured-label FULL-STACK MACHINE LEARNING
+
+        h3 AeroLab AI
+
+        p.featured-description
+          | An interactive aerospace machine learning platform
+          | featuring real-time airfoil noise predictions, frequency
+          | analysis, model comparisons, and training experiments.
+          | Built with Angular and FastAPI, containerized with Docker,
+          | and deployed on Microsoft Azure.
+
+        .tech-tags
+          span Angular
+          span TypeScript
+          span Python
+          span FastAPI
+          span Docker
+          span Azure
+
+        .featured-actions
+          a.hero-btn.hero-btn-primary(
+            href="https://happy-ocean-045bd8f1e.6.azurestaticapps.net"
+            target="_blank"
+            rel="noopener noreferrer"
+          ) Live Demo
+
+          a.hero-btn.hero-btn-secondary(
+            href="https://github.com/Ccyr01/aerolab-ai"
+            target="_blank"
+            rel="noopener noreferrer"
+          ) View Source
+
+      .featured-project-visual
+        img.aerolab-preview(
+        src="/images/aerolab-preview.png"
+        alt="AeroLab AI dashboard showing airfoil analysis and machine learning performance metrics"
+    )
+
+
+  //- PROJECT ARCHIVE
+  section.portfolio-project-thumbs
+    .section-heading
+      div
+        p.section-eyebrow 02 / PROJECT ARCHIVE
+        h2 Selected Work
+        p.section-description
+          | Explore my software development, machine learning,
+          | data analysis, and research projects.
+
     .projects-box.box.grid
-
       each project in projects
         .cell
           a.project(href=`/projects/${project.id}`)
-            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
-            h5= project.project_name
+            img.thumbnail(
+              src=project.image_urls[0]
+              alt=project.project_name
+            )
 
-
-
+            .project-card-info
+              h3= project.project_name
+              span.project-view View Project →
